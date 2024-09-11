@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: rgb(194, 194, 194) !important;
+}
+
+.icon-hover:hover {
+    color: #ffcc00; /* Cambia el color al pasar el ratón */
+    text-decoration: none; /* Elimina la decoración del texto */
+}
